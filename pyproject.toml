@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mbti-personality-classification"
+version = "0.1.0"
+description = "A model for classification of a person's Myers-Briggs Personality Type based on content written by them."
+authors = ["Oleksandr Vodolazskyi"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.4.0"
+black = "^22.6.0"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
